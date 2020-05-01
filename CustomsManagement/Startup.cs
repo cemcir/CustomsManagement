@@ -35,7 +35,7 @@ namespace CustomsManagement
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //buraya bağımlılıklar ve token eklenebilir
+            //buraya bağımlılıklar ve token eklenebilir...
 
             var appSettingsSection = Configuration.GetSection("Tokens");
             services.Configure<Tokens>(appSettingsSection);
